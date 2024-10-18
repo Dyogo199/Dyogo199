@@ -30,6 +30,11 @@
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)&nbsp;
 ![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)&nbsp;
 
+<a href="https://aws.amazon.com/apprunner/" target="_blank">
+  <img src="https://d1.awsstatic.com/getting-started-guides/-net-images/badge_AppRunner.64f18749522a8df064a2398f5cb4e93ea5d77ffa.png" alt="AWS App Runner" style="height: 28px; vertical-align: middle;"/>
+</a>&nbsp;
+
+
 ### Tools:
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)&nbsp;
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)&nbsp;
