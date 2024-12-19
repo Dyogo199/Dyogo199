@@ -31,9 +31,7 @@
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 
-<a href="https://aws.amazon.com/apprunner/" target="_blank">
-  <img src="https://d1.awsstatic.com/getting-started-guides/-net-images/badge_AppRunner.64f18749522a8df064a2398f5cb4e93ea5d77ffa.png" alt="AWS App Runner" style="height: 28px; vertical-align: middle;"/>
-</a>&nbsp;
+
 
 
 ### Tools:
