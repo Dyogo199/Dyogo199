@@ -28,7 +28,8 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)&nbsp;
-![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)&nbsp;
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
 
 <a href="https://aws.amazon.com/apprunner/" target="_blank">
   <img src="https://d1.awsstatic.com/getting-started-guides/-net-images/badge_AppRunner.64f18749522a8df064a2398f5cb4e93ea5d77ffa.png" alt="AWS App Runner" style="height: 28px; vertical-align: middle;"/>
