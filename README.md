@@ -181,17 +181,38 @@ Technologies I use across <b>research, software engineering, infrastructure, AI,
 
 ## Academic Background
 
-🎓 **MSc in Computer Science — University of São Paulo (USP)**  
-Institute of Mathematics and Statistics — IME-USP  
-Research area: Artificial Intelligence & Empirical Software Engineering
+<p align="center">
+Academic training connecting <b>computer science, software, data, and engineering</b>.
+</p>
 
-🎓 **Chemical Engineering**
+<table>
+<tr>
+<td colspan="2" align="center" valign="top">
+<h3>🎓 MSc Student in Computer Science</h3>
+<p><b>University of São Paulo (USP) · Institute of Mathematics and Statistics (IME-USP)</b></p>
+<p>
+<img src="https://img.shields.io/badge/Status-Ongoing-00BFBF?style=flat-square"/>
+<img src="https://img.shields.io/badge/Research-Empirical%20Software%20Engineering-181717?style=flat-square"/>
+<img src="https://img.shields.io/badge/Focus-AI--Assisted%20Software-181717?style=flat-square"/>
+</p>
+<p><code>AI-generated code</code> · <code>LLMs</code> · <code>Maintainability</code> · <code>Technical Debt</code> · <code>Software Quality</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+<h3>⚗️ Chemical Engineering</h3>
+<p>Engineering background supporting a strong foundation in <b>analytical thinking, experimentation, modeling, and problem solving</b>.</p>
+</td>
+<td width="50%" align="center" valign="top">
+<h3>💻 Computing & Data</h3>
+<p><b>Information Technology</b> and <b>Data Science</b> training complementing my work in software engineering, systems, AI, and empirical research.</p>
+</td>
+</tr>
+</table>
 
-🎓 **Information Technology**
-
-🎓 **Data Science**
-
-My multidisciplinary background allows me to work across the boundaries of **software, hardware, data, AI, engineering, and cybersecurity**.
+<p align="center">
+<i>A multidisciplinary foundation for building and studying software-intensive systems from data and algorithms to infrastructure and hardware.</i>
+</p>
 
 ---
 
