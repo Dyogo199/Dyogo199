@@ -24,19 +24,9 @@ Artificial Intelligence · Empirical Software Engineering · Backend Development
 
 ## About Me
 
-I am a **Master's student in Computer Science at the Institute of Mathematics and Statistics of the University of São Paulo (IME-USP)**, with a multidisciplinary background spanning **software engineering, artificial intelligence, cybersecurity, embedded systems, IoT, data science, and engineering**.
+I am a **Master's student in Computer Science at IME-USP** working at the intersection of **Empirical Software Engineering and Artificial Intelligence**. My research investigates the **maintainability and technical sustainability of AI-generated code**, with emphasis on software quality, complexity, technical debt, and reproducible empirical evaluation.
 
-My current research focuses on the **maintainability and technical sustainability of AI-generated software**, investigating how code produced by Large Language Models affects software quality, complexity, technical debt, and long-term maintainability.
-
-Alongside academic research, I work on backend systems, software architecture, infrastructure, automation, embedded platforms, and experimental computing environments.
-
-```text
-Research      → AI-generated code · Empirical Software Engineering · LLMs
-Engineering   → Backend · Distributed Systems · APIs · DevOps
-Security      → Application Security · Systems Security · Network Security
-Embedded      → ESP32 · ESP8266 · IoT · Edge Computing · TinyML
-Data & AI     → Machine Learning · RAG · AI Agents · Data Analysis
-```
+Beyond research, I design and build software and experimental systems across **backend engineering, cybersecurity, embedded systems, IoT, infrastructure, automation, and applied AI**, combining a multidisciplinary background in computing, data, and engineering.
 
 ---
 
