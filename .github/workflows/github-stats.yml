@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths:
-      - "README.md"
+      - "scripts/generate_profile_stats.py"
       - ".github/workflows/github-stats.yml"
 
 permissions:
@@ -27,99 +27,33 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Generate and validate profile statistics
+      - name: Generate profile statistics from GitHub API
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ github.token }}
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: |
+          set -euo pipefail
+          python3 scripts/generate_profile_stats.py
+
+      - name: Validate generated SVG cards
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p profile
 
-          stats_tmp="$(mktemp)"
-          langs_tmp="$(mktemp)"
-
-          cleanup() {
-            rm -f "$stats_tmp" "$langs_tmp"
-          }
-          trap cleanup EXIT
-
-          download_svg() {
-            local url="$1"
-            local output="$2"
-            local label="$3"
-            local http_status
-
-            echo "Requesting $label..."
-
-            http_status="$(curl \
-              --silent \
-              --show-error \
-              --location \
-              --retry 3 \
-              --retry-all-errors \
-              --retry-delay 5 \
-              --connect-timeout 20 \
-              --max-time 120 \
-              --user-agent "Dyogo199-profile-stats" \
-              --header "Accept: image/svg+xml" \
-              --output "$output" \
-              --write-out "%{http_code}" \
-              "$url")"
-
-            echo "$label HTTP status: $http_status"
-
-            if [[ ! "$http_status" =~ ^2[0-9][0-9]$ ]]; then
-              echo "ERROR: $label request failed with HTTP $http_status."
-              echo "----- Response body (first 2000 bytes) -----"
-              head -c 2000 "$output" || true
-              echo
-              echo "--------------------------------------------"
-              exit 22
-            fi
-          }
-
-          validate_svg() {
-            local file="$1"
-            local label="$2"
-
+          for file in profile/stats.svg profile/top-langs.svg; do
             if [[ ! -s "$file" ]]; then
-              echo "ERROR: $label response is empty."
+              echo "ERROR: $file is empty or missing."
               exit 1
             fi
 
             if ! grep -qiE '<svg([[:space:]>])' "$file"; then
-              echo "ERROR: $label response is not an SVG document."
-              echo "----- Response body (first 2000 bytes) -----"
-              head -c 2000 "$file" || true
-              echo
-              echo "--------------------------------------------"
+              echo "ERROR: $file is not an SVG document."
               exit 1
             fi
+          done
 
-            if grep -qiE 'something went wrong|rate limit|card is not deployed|application error|internal server error' "$file"; then
-              echo "ERROR: $label response contains an upstream error card."
-              echo "----- SVG content (first 2000 bytes) -----"
-              head -c 2000 "$file" || true
-              echo
-              echo "------------------------------------------"
-              exit 1
-            fi
-
-            echo "$label SVG validation: OK"
-          }
-
-          stats_url="https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00BFBF&icon_color=00BFBF&text_color=C9D1D9"
-          langs_url="https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=00BFBF&text_color=C9D1D9"
-
-          download_svg "$stats_url" "$stats_tmp" "GitHub statistics"
-          validate_svg "$stats_tmp" "GitHub statistics"
-
-          download_svg "$langs_url" "$langs_tmp" "Language statistics"
-          validate_svg "$langs_tmp" "Language statistics"
-
-          mv "$stats_tmp" profile/stats.svg
-          mv "$langs_tmp" profile/top-langs.svg
-          trap - EXIT
-
-          echo "Profile statistics generated and validated successfully."
+          echo "Generated SVG validation: OK"
 
       - name: Commit generated cards
         shell: bash
