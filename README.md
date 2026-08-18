@@ -99,7 +99,7 @@ Selected projects spanning <b>backend engineering, systems programming, embedded
 <p><code>Embedded Systems</code> · <code>Pico W</code> · <code>MAX30105</code> · <code>Signal Acquisition</code></p>
 </td>
 <td width="50%" valign="top">
-<h3>☕ <a href="https://github.com/Dyogo199/CrudifyGerenciadordeUsuariosEmSpring-Boot">Crudify — Spring Boot API</a></h3>
+<h3>☕ <a href="https://github.com/Dyogo199/crudify-spring-boot-api">Crudify — Spring Boot API</a></h3>
 <p>RESTful user-management application with a complete CRUD architecture using <b>Java, Spring Boot, Spring Data JPA, H2, and Maven</b>.</p>
 <p><code>Java</code> · <code>Spring Boot</code> · <code>REST API</code> · <code>JPA</code></p>
 </td>
