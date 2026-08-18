@@ -198,9 +198,9 @@ My multidisciplinary background allows me to work across the boundaries of **sof
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Dyogo199&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00BFBF&icon_color=00BFBF&text_color=C9D1D9"/>
+<img height="180em" src="./profile/stats.svg" alt="Dyogo Mondego GitHub Stats"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dyogo199&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=00BFBF&text_color=C9D1D9"/>
+<img height="180em" src="./profile/top-langs.svg" alt="Dyogo Mondego Most Used Languages"/>
 
 </div>
 
