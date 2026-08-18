@@ -1,4 +1,3 @@
-````html
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00BFBF&height=130&section=header"/>
 
 <h1 align="center">Dyogo Mondego</h1>
@@ -37,7 +36,7 @@ Engineering   → Backend · Distributed Systems · APIs · DevOps
 Security      → Application Security · Systems Security · Network Security
 Embedded      → ESP32 · ESP8266 · IoT · Edge Computing · TinyML
 Data & AI     → Machine Learning · RAG · AI Agents · Data Analysis
-````
+```
 
 ---
 
@@ -49,15 +48,15 @@ Data & AI     → Machine Learning · RAG · AI Agents · Data Analysis
 
 ### Artificial Intelligence & Software Engineering
 
-* AI-generated software
-* Large Language Models
-* Empirical Software Engineering
-* Software maintainability
-* Technical debt
-* Software quality metrics
-* AI-assisted development
-* RAG and AI agents
-* Reproducible software experiments
+- AI-generated software
+- Large Language Models
+- Empirical Software Engineering
+- Software maintainability
+- Technical debt
+- Software quality metrics
+- AI-assisted development
+- RAG and AI agents
+- Reproducible software experiments
 
 </td>
 
@@ -65,15 +64,15 @@ Data & AI     → Machine Learning · RAG · AI Agents · Data Analysis
 
 ### Systems & Applied Computing
 
-* Backend architectures
-* Cybersecurity
-* Embedded systems
-* Internet of Things
-* Edge computing
-* TinyML
-* Smart Cities
-* Energy-aware computing
-* Distributed systems
+- Backend architectures
+- Cybersecurity
+- Embedded systems
+- Internet of Things
+- Edge computing
+- TinyML
+- Smart Cities
+- Energy-aware computing
+- Distributed systems
 
 </td>
 </tr>
@@ -140,7 +139,7 @@ Development and modernization of backend applications, APIs, services, and infra
 ### Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=java,kotlin,python,c,cpp,rust,js,ts,sql"/>
+<img src="https://skillicons.dev/icons?i=java,kotlin,python,c,cpp,rust,js,ts"/>
 </p>
 
 ### Backend & Software Engineering
@@ -183,8 +182,8 @@ Development and modernization of backend applications, APIs, services, and infra
 
 ## Academic Background
 
-🎓 **MSc in Computer Science — University of São Paulo (USP)**
-Institute of Mathematics and Statistics — IME-USP
+🎓 **MSc in Computer Science — University of São Paulo (USP)**  
+Institute of Mathematics and Statistics — IME-USP  
 Research area: Artificial Intelligence & Empirical Software Engineering
 
 🎓 **Chemical Engineering**
@@ -211,7 +210,7 @@ My multidisciplinary background allows me to work across the boundaries of **sof
 
 ## Development Activity
 
-[![Dyogo's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Dyogo199\&bg_color=0D1117\&color=00BFBF\&line=00BFBF\&point=FFFFFF\&area=true\&hide_border=true)](https://github.com/Dyogo199)
+[![Dyogo's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Dyogo199&bg_color=0D1117&color=00BFBF&line=00BFBF&point=FFFFFF&area=true&hide_border=true)](https://github.com/Dyogo199)
 
 ---
 
@@ -237,4 +236,3 @@ For academic collaboration, software engineering projects, research partnerships
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00BFBF&height=120&section=footer"/>
-```
