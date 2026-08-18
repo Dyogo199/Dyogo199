@@ -129,47 +129,33 @@ Experimental benchmark comparing **Bucket Sort, Merge Sort, and Bubble Sort** ac
 
 ## Technology Stack
 
-### Languages
-
 <p>
-<img src="https://skillicons.dev/icons?i=java,kotlin,python,c,cpp,rust,js,ts"/>
+<img src="https://skillicons.dev/icons?i=java,kotlin,python,c,cpp,spring,docker,linux,postgres,mongodb,git,github"/>
 </p>
 
-### Backend & Software Engineering
+### Core Engineering
 
-<p>
-<img src="https://skillicons.dev/icons?i=spring,nodejs,react,maven,gradle"/>
-</p>
+**Languages:** `Java` · `Kotlin` · `Python` · `C` · `C++`
 
-`Ktor` · `REST APIs` · `Microservices` · `Software Architecture` · `Testing`
+**Backend & Software Engineering:** `Spring Boot` · `Ktor` · `REST APIs` · `JPA` · `Maven` · `Gradle` · `Software Architecture` · `Testing`
 
-### Databases & Data
+### Systems, Data & Infrastructure
 
-<p>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb"/>
-</p>
+**Databases & Data:** `PostgreSQL` · `MySQL` · `MongoDB` · `H2` · `SQL` · `Data Analysis`
 
-`SQL` · `Data Analysis` · `Machine Learning`
+**DevOps & Infrastructure:** `Docker` · `Linux` · `Git` · `GitHub Actions` · `CI/CD` · `Cloud Infrastructure`
 
-### DevOps & Infrastructure
+**Embedded & IoT:** `ESP32` · `ESP8266` · `Raspberry Pi Pico W` · `FreeRTOS` · `Arduino` · `Orange Pi` · `Sensors` · `MQTT` · `Edge Computing`
 
-<p>
-<img src="https://skillicons.dev/icons?i=docker,linux,git,github,githubactions,aws,azure"/>
-</p>
+### AI & Security
 
-`CI/CD` · `Containers` · `Linux Administration` · `Cloud Infrastructure`
+**AI & Applied Research:** `Machine Learning` · `Large Language Models` · `RAG` · `Agentic AI` · `TinyML` · `Empirical Data Analysis`
 
-### Embedded Systems & IoT
+**Cybersecurity:** `Application Security` · `Network Security` · `Linux Security` · `Penetration Testing` · `Threat Analysis` · `Secure Software Development`
 
-<p>
-<img src="https://skillicons.dev/icons?i=arduino,raspberrypi"/>
-</p>
+### Additional Technologies
 
-`ESP32` · `ESP8266` · `Orange Pi` · `FreeRTOS` · `Sensors` · `Edge Computing` · `TinyML`
-
-### Cybersecurity
-
-`Application Security` · `Network Security` · `Linux Security` · `Penetration Testing` · `Threat Analysis` · `Secure Software Development`
+`Rust` · `JavaScript` · `TypeScript` · `React` · `Node.js` · `AWS` · `Azure`
 
 ---
 
