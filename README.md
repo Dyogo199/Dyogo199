@@ -36,33 +36,27 @@ Beyond research, I design and build software and experimental systems across **b
 <tr>
 <td width="50%" valign="top">
 
-### Artificial Intelligence & Software Engineering
+### Empirical Software Engineering & AI
 
-- AI-generated software
-- Large Language Models
-- Empirical Software Engineering
-- Software maintainability
-- Technical debt
-- Software quality metrics
-- AI-assisted development
-- RAG and AI agents
-- Reproducible software experiments
+- AI-generated and AI-assisted software
+- Software maintainability and technical debt
+- Software quality and complexity metrics
+- Large Language Models for software engineering
+- Reproducible empirical software studies
+- RAG and agentic AI systems
 
 </td>
 
 <td width="50%" valign="top">
 
-### Systems & Applied Computing
+### Intelligent & Secure Systems
 
-- Backend architectures
-- Cybersecurity
-- Embedded systems
-- Internet of Things
-- Edge computing
-- TinyML
-- Smart Cities
-- Energy-aware computing
-- Distributed systems
+- Backend and distributed systems
+- Cybersecurity and secure software engineering
+- Embedded systems and Internet of Things
+- Edge AI and TinyML
+- Energy-aware and resilient computing
+- Smart-city computing systems
 
 </td>
 </tr>
