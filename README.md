@@ -3,7 +3,7 @@
 <h1 align="center">Dyogo Mondego</h1>
 
 <h3 align="center">
-MSc Student in Computer Science @ IME-USP · Software Engineer · Researcher
+MSc Student in Computer Science @ IME-USP · Researcher in Empirical Software Engineering & AI · Software Engineer
 </h3>
 
 <p align="center">
