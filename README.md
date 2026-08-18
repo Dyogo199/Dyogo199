@@ -1,73 +1,240 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/> 
+````html
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00BFBF&height=130&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+Dyogo+Mondego;I'm+29+years+old;I+am+from+São+Luis,+MA;I+study+Tecnologia+da+Informação+-+UFMS;Be+Welcome!+:%29)](https://git.io/typing-svg) 
+<h1 align="center">Dyogo Mondego</h1>
 
-<div align="center">  
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Dyogo199&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="Dyogo199 github stats" /> 
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dyogo199&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
-</div>
-
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Dyogo199&bg_color=000000&color=15e5a6&line=07e9a5&point=0a855c&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<h3 align="center">
+MSc Student in Computer Science @ IME-USP · Software Engineer · Researcher
+</h3>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Dyogo199&theme=dracula&row=2&no-bg=true&column=3&margin-w=15&margin-h=15" />
+Artificial Intelligence · Empirical Software Engineering · Backend Development · Cybersecurity · Embedded Systems · IoT
 </p>
 
-<div align="center">  
-<a href="https://www.instagram.com/mthalvarez_/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
-<a href="https://www.linkedin.com/in/dyogomondego/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-<a href="mailto:d.m.m.a94@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-<a href="mailto:dyogo_111@hotmail.com" target="_blank"><img src="https://img.shields.io/badge/-Hotmail-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"></a>
-<a href="https://wa.me/5598989155521" target="_blank"><img src="https://img.shields.io/badge/-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
-</div> 
- 
-### Main skills:
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="30" alt="spring logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" height="30" alt="apachekafka logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="30" alt="azure logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="30" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="30" alt="intellij logo"  />
+<p align="center">
+  <a href="https://www.linkedin.com/in/dyogomondego/">
+    <img src="https://img.shields.io/badge/LinkedIn-Dyogo%20Mondego-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:d.m.m.a94@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=Dyogo199&style=flat-square&color=00bfbf" alt="Profile views"/>
+</p>
+
+---
+
+## About Me
+
+I am a **Master's student in Computer Science at the Institute of Mathematics and Statistics of the University of São Paulo (IME-USP)**, with a multidisciplinary background spanning **software engineering, artificial intelligence, cybersecurity, embedded systems, IoT, data science, and engineering**.
+
+My current research focuses on the **maintainability and technical sustainability of AI-generated software**, investigating how code produced by Large Language Models affects software quality, complexity, technical debt, and long-term maintainability.
+
+Alongside academic research, I work on backend systems, software architecture, infrastructure, automation, embedded platforms, and experimental computing environments.
+
+```text
+Research      → AI-generated code · Empirical Software Engineering · LLMs
+Engineering   → Backend · Distributed Systems · APIs · DevOps
+Security      → Application Security · Systems Security · Network Security
+Embedded      → ESP32 · ESP8266 · IoT · Edge Computing · TinyML
+Data & AI     → Machine Learning · RAG · AI Agents · Data Analysis
+````
+
+---
+
+## Research Interests
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Artificial Intelligence & Software Engineering
+
+* AI-generated software
+* Large Language Models
+* Empirical Software Engineering
+* Software maintainability
+* Technical debt
+* Software quality metrics
+* AI-assisted development
+* RAG and AI agents
+* Reproducible software experiments
+
+</td>
+
+<td width="50%" valign="top">
+
+### Systems & Applied Computing
+
+* Backend architectures
+* Cybersecurity
+* Embedded systems
+* Internet of Things
+* Edge computing
+* TinyML
+* Smart Cities
+* Energy-aware computing
+* Distributed systems
+
+</td>
+</tr>
+</table>
+
+---
+
+## Current Research
+
+### Maintainability and Sustainability of AI-Generated Code
+
+My master's research investigates the impact of **AI-generated source code on software maintainability and technical sustainability**.
+
+The research combines empirical software engineering methods with quantitative software metrics and qualitative analysis.
+
+Key topics include:
+
+`Maintainability Index` · `Cyclomatic Complexity` · `Technical Debt` · `LLMs` · `SWE-bench` · `Software Quality` · `Reproducibility`
+
+The goal is to better understand whether software generated or modified by AI remains maintainable throughout its lifecycle and to develop reproducible methodologies for evaluating these systems.
+
+---
+
+## Engineering & Research Projects
+
+### AI-Generated Code Maintainability
+
+Experimental framework for evaluating the maintainability, complexity, and technical debt of software generated or modified by Large Language Models.
+
+**Research:** Empirical Software Engineering · LLMs · Software Quality
+
+---
+
+### Energy-Based Intrusion Detection for IoT
+
+Experimental research using **energy consumption as a side-channel signal for cybersecurity monitoring in IoT devices**.
+
+Hardware and technologies include:
+
+`ESP8266` · `ESP32-C6` · `INA219` · `Python` · `FreeRTOS` · `Linux` · `Network Security`
+
+---
+
+### TinyML · Edge · Cloud Intelligence
+
+Experimental investigation of the trade-offs between **on-device AI, edge computing, cloud inference, and hybrid architectures** for smart-city IoT applications.
+
+Metrics include:
+
+`Energy` · `Latency` · `Network Usage` · `Accuracy` · `Performance` · `Resilience`
+
+---
+
+### Backend & Software Architecture
+
+Development and modernization of backend applications, APIs, services, and infrastructure using technologies including:
+
+`Java` · `Kotlin` · `Ktor` · `Spring` · `Docker` · `PostgreSQL` · `MongoDB` · `Kafka`
+
+---
+
+## Technology Stack
+
+### Languages
+
+<p>
+<img src="https://skillicons.dev/icons?i=java,kotlin,python,c,cpp,rust,js,ts,sql"/>
+</p>
+
+### Backend & Software Engineering
+
+<p>
+<img src="https://skillicons.dev/icons?i=spring,nodejs,react,maven,gradle"/>
+</p>
+
+`Ktor` · `REST APIs` · `Microservices` · `Software Architecture` · `Testing`
+
+### Databases & Data
+
+<p>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb"/>
+</p>
+
+`SQL` · `Data Analysis` · `Machine Learning`
+
+### DevOps & Infrastructure
+
+<p>
+<img src="https://skillicons.dev/icons?i=docker,linux,git,github,githubactions,aws,azure"/>
+</p>
+
+`CI/CD` · `Containers` · `Linux Administration` · `Cloud Infrastructure`
+
+### Embedded Systems & IoT
+
+<p>
+<img src="https://skillicons.dev/icons?i=arduino,raspberrypi"/>
+</p>
+
+`ESP32` · `ESP8266` · `Orange Pi` · `FreeRTOS` · `Sensors` · `Edge Computing` · `TinyML`
+
+### Cybersecurity
+
+`Application Security` · `Network Security` · `Linux Security` · `Penetration Testing` · `Threat Analysis` · `Secure Software Development`
+
+---
+
+## Academic Background
+
+🎓 **MSc in Computer Science — University of São Paulo (USP)**
+Institute of Mathematics and Statistics — IME-USP
+Research area: Artificial Intelligence & Empirical Software Engineering
+
+🎓 **Chemical Engineering**
+
+🎓 **Information Technology**
+
+🎓 **Data Science**
+
+My multidisciplinary background allows me to work across the boundaries of **software, hardware, data, AI, engineering, and cybersecurity**.
+
+---
+
+## GitHub Analytics
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Dyogo199&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00BFBF&icon_color=00BFBF&text_color=C9D1D9"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dyogo199&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=00BFBF&text_color=C9D1D9"/>
+
 </div>
 
+---
 
+## Development Activity
 
+[![Dyogo's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Dyogo199\&bg_color=0D1117\&color=00BFBF\&line=00BFBF\&point=FFFFFF\&area=true\&hide_border=true)](https://github.com/Dyogo199)
 
+---
 
-### Tools:
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)&nbsp;
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)&nbsp;
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)&nbsp;
-![Word](https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)&nbsp;
-![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)&nbsp;
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)&nbsp;
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)&nbsp;
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)&nbsp;
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)&nbsp;
+## Open to Collaboration
 
-### Other Knowledge:
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)&nbsp;
-![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)&nbsp;
+I am interested in collaborating on research and engineering projects involving:
 
-### Studying in this moment:
-![Node.JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)&nbsp;
-![React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)&nbsp;
+**Artificial Intelligence · Software Engineering · LLMs · Cybersecurity · Backend Systems · Embedded Systems · IoT · Edge Computing · Smart Cities**
 
+For academic collaboration, software engineering projects, research partnerships, or technical discussions:
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/dyogomondego/">
+    <img src="https://img.shields.io/badge/LinkedIn-Dyogo%20Mondego-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:d.m.m.a94@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
+<p align="center">
+<i>Building reliable software, researching intelligent systems, and connecting software engineering with real-world computing.</i>
+</p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00BFBF&height=120&section=footer"/>
+```
