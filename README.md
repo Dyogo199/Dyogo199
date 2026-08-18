@@ -85,41 +85,45 @@ The quantitative evaluation focuses on indicators such as **Maintainability Inde
 
 ---
 
-## Engineering & Research Projects
+## Selected Engineering & Research Projects
 
-### AI-Generated Code Maintainability
+### [Veterinary Pulse Oximeter](https://github.com/Dyogo199/ProjetoFinalEmabarcatech)
 
-Experimental framework for evaluating the maintainability, complexity, and technical debt of software generated or modified by Large Language Models.
+Embedded monitoring prototype for real-time **SpO₂ and heart-rate acquisition**, integrating a **MAX30105 optical sensor**, **Raspberry Pi Pico W**, and **OLED display**.
 
-**Research:** Empirical Software Engineering · LLMs · Software Quality
-
----
-
-### Energy-Based Intrusion Detection for IoT
-
-Experimental research using **energy consumption as a side-channel signal for cybersecurity monitoring in IoT devices**.
-
-Hardware and technologies include:
-
-`ESP8266` · `ESP32-C6` · `INA219` · `Python` · `FreeRTOS` · `Linux` · `Network Security`
+`Embedded Systems` · `Raspberry Pi Pico W` · `MAX30105` · `Signal Acquisition`
 
 ---
 
-### TinyML · Edge · Cloud Intelligence
+### [Crudify — Spring Boot User Management API](https://github.com/Dyogo199/CrudifyGerenciadordeUsuariosEmSpring-Boot)
 
-Experimental investigation of the trade-offs between **on-device AI, edge computing, cloud inference, and hybrid architectures** for smart-city IoT applications.
+RESTful user-management application implementing a complete CRUD architecture with **Java, Spring Boot, Spring Data JPA, H2, Maven, and layered MVC organization**.
 
-Metrics include:
-
-`Energy` · `Latency` · `Network Usage` · `Accuracy` · `Performance` · `Resilience`
+`Java` · `Spring Boot` · `REST API` · `JPA` · `H2` · `Maven`
 
 ---
 
-### Backend & Software Architecture
+### [Multithreaded HTTP Server in C++](https://github.com/Dyogo199/ServidorHTTP)
 
-Development and modernization of backend applications, APIs, services, and infrastructure using technologies including:
+HTTP server implemented in **C++** with support for **GET and POST requests, concurrent connections, static-file serving, access logging, and basic path-traversal protection**.
 
-`Java` · `Kotlin` · `Ktor` · `Spring` · `Docker` · `PostgreSQL` · `MongoDB` · `Kafka`
+`C++` · `HTTP` · `Sockets` · `Multithreading` · `Networking`
+
+---
+
+### [In-Memory Database in C](https://github.com/Dyogo199/BancoDeDadosMemoria)
+
+Educational database implementation exploring **in-memory record management, CRUD operations, B+ tree indexing, data structures, and systems programming in C**.
+
+`C` · `B+ Tree` · `Data Structures` · `CRUD` · `Systems Programming`
+
+---
+
+### [Sorting Algorithms Benchmark — Python](https://github.com/Dyogo199/Artigo_Ordena-o_Python)
+
+Experimental benchmark comparing **Bucket Sort, Merge Sort, and Bubble Sort** across multiple input sizes and repeated executions, including descriptive execution-time statistics.
+
+`Python` · `Algorithms` · `Benchmarking` · `Performance Analysis`
 
 ---
 
