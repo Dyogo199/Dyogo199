@@ -94,7 +94,7 @@ Selected projects spanning <b>backend engineering, systems programming, embedded
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3>🩺 <a href="https://github.com/Dyogo199/ProjetoFinalEmabarcatech">Veterinary Pulse Oximeter</a></h3>
+<h3>🩺 <a href="https://github.com/Dyogo199/veterinary-pulse-oximeter">Veterinary Pulse Oximeter</a></h3>
 <p>Embedded monitoring prototype for real-time <b>SpO₂ and heart-rate acquisition</b> using a MAX30105 optical sensor, Raspberry Pi Pico W, and OLED display.</p>
 <p><code>Embedded Systems</code> · <code>Pico W</code> · <code>MAX30105</code> · <code>Signal Acquisition</code></p>
 </td>
@@ -106,24 +106,24 @@ Selected projects spanning <b>backend engineering, systems programming, embedded
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3>🌐 <a href="https://github.com/Dyogo199/ServidorHTTP">HTTP Server in C++</a></h3>
+<h3>🌐 <a href="https://github.com/Dyogo199/cpp-http-server">HTTP Server in C++</a></h3>
 <p>HTTP server written in <b>C++</b> with TCP socket handling, GET/POST support, static-file serving, request logging, and basic path-traversal protection.</p>
 <p><code>C++</code> · <code>TCP Sockets</code> · <code>HTTP/1.1</code> · <code>Networking</code></p>
 </td>
 <td width="50%" valign="top">
-<h3>🗄️ <a href="https://github.com/Dyogo199/BancoDeDadosMemoria">In-Memory Database</a></h3>
+<h3>🗄️ <a href="https://github.com/Dyogo199/in-memory-database-c">In-Memory Database</a></h3>
 <p>Systems-programming project exploring <b>in-memory record management, dynamic allocation, and the structural foundation for B+ tree indexing in C</b>.</p>
 <p><code>C</code> · <code>B+ Tree</code> · <code>Data Structures</code> · <code>Systems</code></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3>📊 <a href="https://github.com/Dyogo199/Artigo_Ordena-o_Python">Sorting Algorithms Benchmark</a></h3>
+<h3>📊 <a href="https://github.com/Dyogo199/sorting-algorithms-benchmark">Sorting Algorithms Benchmark</a></h3>
 <p>Experimental benchmark comparing <b>Bucket Sort, Merge Sort, and Bubble Sort</b> across multiple input sizes and repeated executions with descriptive performance statistics.</p>
 <p><code>Python</code> · <code>Algorithms</code> · <code>Benchmarking</code> · <code>Performance</code></p>
 </td>
 <td width="50%" valign="top">
-<h3>🖥️ <a href="https://github.com/Dyogo199/SimuladorAlgoritimoAgendamentoCPU">CPU Scheduling Simulator</a></h3>
+<h3>🖥️ <a href="https://github.com/Dyogo199/cpu-scheduling-simulator">CPU Scheduling Simulator</a></h3>
 <p>Operating-systems simulator implementing <b>FCFS, Round Robin, preemptive priority, and non-preemptive priority scheduling</b> with process timing metrics.</p>
 <p><code>C</code> · <code>Operating Systems</code> · <code>Scheduling</code> · <code>Algorithms</code></p>
 </td>
