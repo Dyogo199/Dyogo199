@@ -87,75 +87,95 @@ The quantitative evaluation focuses on indicators such as **Maintainability Inde
 
 ## Selected Engineering & Research Projects
 
-### [Veterinary Pulse Oximeter](https://github.com/Dyogo199/ProjetoFinalEmabarcatech)
+<p align="center">
+Selected projects spanning <b>backend engineering, systems programming, embedded computing, and experimental analysis</b>.
+</p>
 
-Embedded monitoring prototype for real-time **SpO₂ and heart-rate acquisition**, integrating a **MAX30105 optical sensor**, **Raspberry Pi Pico W**, and **OLED display**.
-
-`Embedded Systems` · `Raspberry Pi Pico W` · `MAX30105` · `Signal Acquisition`
-
----
-
-### [Crudify — Spring Boot User Management API](https://github.com/Dyogo199/CrudifyGerenciadordeUsuariosEmSpring-Boot)
-
-RESTful user-management application implementing a complete CRUD architecture with **Java, Spring Boot, Spring Data JPA, H2, Maven, and layered MVC organization**.
-
-`Java` · `Spring Boot` · `REST API` · `JPA` · `H2` · `Maven`
-
----
-
-### [Multithreaded HTTP Server in C++](https://github.com/Dyogo199/ServidorHTTP)
-
-HTTP server implemented in **C++** with support for **GET and POST requests, concurrent connections, static-file serving, access logging, and basic path-traversal protection**.
-
-`C++` · `HTTP` · `Sockets` · `Multithreading` · `Networking`
-
----
-
-### [In-Memory Database in C](https://github.com/Dyogo199/BancoDeDadosMemoria)
-
-Educational database implementation exploring **in-memory record management, CRUD operations, B+ tree indexing, data structures, and systems programming in C**.
-
-`C` · `B+ Tree` · `Data Structures` · `CRUD` · `Systems Programming`
-
----
-
-### [Sorting Algorithms Benchmark — Python](https://github.com/Dyogo199/Artigo_Ordena-o_Python)
-
-Experimental benchmark comparing **Bucket Sort, Merge Sort, and Bubble Sort** across multiple input sizes and repeated executions, including descriptive execution-time statistics.
-
-`Python` · `Algorithms` · `Benchmarking` · `Performance Analysis`
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>🩺 <a href="https://github.com/Dyogo199/ProjetoFinalEmabarcatech">Veterinary Pulse Oximeter</a></h3>
+<p>Embedded monitoring prototype for real-time <b>SpO₂ and heart-rate acquisition</b> using a MAX30105 optical sensor, Raspberry Pi Pico W, and OLED display.</p>
+<p><code>Embedded Systems</code> · <code>Pico W</code> · <code>MAX30105</code> · <code>Signal Acquisition</code></p>
+</td>
+<td width="50%" valign="top">
+<h3>☕ <a href="https://github.com/Dyogo199/CrudifyGerenciadordeUsuariosEmSpring-Boot">Crudify — Spring Boot API</a></h3>
+<p>RESTful user-management application with a complete CRUD architecture using <b>Java, Spring Boot, Spring Data JPA, H2, and Maven</b>.</p>
+<p><code>Java</code> · <code>Spring Boot</code> · <code>REST API</code> · <code>JPA</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>🌐 <a href="https://github.com/Dyogo199/ServidorHTTP">Multithreaded HTTP Server</a></h3>
+<p>HTTP server written in <b>C++</b> with GET/POST support, concurrent connections, static-file serving, logging, and basic path-traversal protection.</p>
+<p><code>C++</code> · <code>Sockets</code> · <code>HTTP</code> · <code>Multithreading</code></p>
+</td>
+<td width="50%" valign="top">
+<h3>🗄️ <a href="https://github.com/Dyogo199/BancoDeDadosMemoria">In-Memory Database</a></h3>
+<p>Systems-programming project exploring <b>CRUD operations, in-memory record management, B+ tree indexing, and data structures in C</b>.</p>
+<p><code>C</code> · <code>B+ Tree</code> · <code>Data Structures</code> · <code>Systems</code></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<h3 align="center">📊 <a href="https://github.com/Dyogo199/Artigo_Ordena-o_Python">Sorting Algorithms Benchmark — Python</a></h3>
+<p align="center">Experimental benchmark comparing <b>Bucket Sort, Merge Sort, and Bubble Sort</b> across multiple input sizes and repeated executions with descriptive performance statistics.</p>
+<p align="center"><code>Python</code> · <code>Algorithms</code> · <code>Benchmarking</code> · <code>Performance Analysis</code></p>
+</td>
+</tr>
+</table>
 
 ---
 
 ## Technology Stack
 
-<p>
-<img src="https://skillicons.dev/icons?i=java,kotlin,python,c,cpp,spring,docker,linux,postgres,mongodb,git,github"/>
+<p align="center">
+Technologies I use across <b>research, software engineering, infrastructure, AI, cybersecurity, and embedded systems</b>.
 </p>
 
-### Core Engineering
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<h3>⚙️ Core Engineering</h3>
+<img src="https://skillicons.dev/icons?i=java,kotlin,python,c,cpp,spring,maven,gradle"/>
+<br/><br/>
+<code>Java</code> · <code>Kotlin</code> · <code>Python</code> · <code>C</code> · <code>C++</code><br/>
+<code>Spring Boot</code> · <code>Ktor</code> · <code>REST APIs</code> · <code>JPA</code><br/>
+<code>Software Architecture</code> · <code>Testing</code>
+</td>
+<td width="50%" valign="top" align="center">
+<h3>🗃️ Data & Infrastructure</h3>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,docker,linux,git,github,githubactions"/>
+<br/><br/>
+<code>PostgreSQL</code> · <code>MySQL</code> · <code>MongoDB</code> · <code>H2</code><br/>
+<code>Docker</code> · <code>Linux</code> · <code>Git</code> · <code>GitHub Actions</code><br/>
+<code>CI/CD</code> · <code>Cloud Infrastructure</code>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<h3>🔌 Embedded & IoT</h3>
+<img src="https://skillicons.dev/icons?i=arduino,raspberrypi,c,cpp,linux"/>
+<br/><br/>
+<code>ESP32</code> · <code>ESP8266</code> · <code>Raspberry Pi Pico W</code><br/>
+<code>FreeRTOS</code> · <code>Arduino</code> · <code>Orange Pi</code><br/>
+<code>MQTT</code> · <code>Sensors</code> · <code>Edge Computing</code>
+</td>
+<td width="50%" valign="top" align="center">
+<h3>🧠 AI & Security</h3>
+<img src="https://skillicons.dev/icons?i=python,linux,docker,github"/>
+<br/><br/>
+<code>Machine Learning</code> · <code>LLMs</code> · <code>RAG</code> · <code>Agentic AI</code><br/>
+<code>TinyML</code> · <code>Empirical Data Analysis</code><br/>
+<code>Application Security</code> · <code>Network Security</code> · <code>Secure Software Development</code>
+</td>
+</tr>
+</table>
 
-**Languages:** `Java` · `Kotlin` · `Python` · `C` · `C++`
-
-**Backend & Software Engineering:** `Spring Boot` · `Ktor` · `REST APIs` · `JPA` · `Maven` · `Gradle` · `Software Architecture` · `Testing`
-
-### Systems, Data & Infrastructure
-
-**Databases & Data:** `PostgreSQL` · `MySQL` · `MongoDB` · `H2` · `SQL` · `Data Analysis`
-
-**DevOps & Infrastructure:** `Docker` · `Linux` · `Git` · `GitHub Actions` · `CI/CD` · `Cloud Infrastructure`
-
-**Embedded & IoT:** `ESP32` · `ESP8266` · `Raspberry Pi Pico W` · `FreeRTOS` · `Arduino` · `Orange Pi` · `Sensors` · `MQTT` · `Edge Computing`
-
-### AI & Security
-
-**AI & Applied Research:** `Machine Learning` · `Large Language Models` · `RAG` · `Agentic AI` · `TinyML` · `Empirical Data Analysis`
-
-**Cybersecurity:** `Application Security` · `Network Security` · `Linux Security` · `Penetration Testing` · `Threat Analysis` · `Secure Software Development`
-
-### Additional Technologies
-
-`Rust` · `JavaScript` · `TypeScript` · `React` · `Node.js` · `AWS` · `Azure`
+<p align="center">
+<b>Additional technologies</b><br/><br/>
+<img src="https://skillicons.dev/icons?i=rust,js,ts,react,nodejs,aws,azure"/>
+</p>
 
 ---
 
