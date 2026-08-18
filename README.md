@@ -245,25 +245,57 @@ Academic training connecting <b>computer science, software, data, and engineerin
 
 ---
 
-## Open to Collaboration
-
-I am interested in collaborating on research and engineering projects involving:
-
-**Artificial Intelligence · Software Engineering · LLMs · Cybersecurity · Backend Systems · Embedded Systems · IoT · Edge Computing · Smart Cities**
-
-For academic collaboration, software engineering projects, research partnerships, or technical discussions:
+## Research & Collaboration
 
 <p align="center">
+I am open to <b>academic collaboration, empirical software engineering studies, research software development, and engineering projects</b> involving AI-assisted software, LLMs, cybersecurity, backend systems, embedded computing, IoT, edge intelligence, and reproducible experimentation.
+</p>
+
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+<h3>🔬 Research Profiles</h3>
+<p>
+  <a href="https://orcid.org/0009-0001-8476-7131">
+    <img src="https://img.shields.io/badge/ORCID-0009--0001--8476--7131-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"/>
+  </a>
+</p>
+<p>
+  <a href="https://lattes.cnpq.br/3226471295242920">
+    <img src="https://img.shields.io/badge/Curr%C3%ADculo-Lattes-005CA9?style=for-the-badge"/>
+  </a>
+</p>
+<p>
+  <a href="https://www.webofscience.com/wos/author/record/PWG-2505-2026">
+    <img src="https://img.shields.io/badge/Web%20of%20Science-PWG--2505--2026-5E33BF?style=for-the-badge"/>
+  </a>
+</p>
+<p>
+  <a href="https://scholar.google.com/citations?user=5SmjU0gAAAAJ">
+    <img src="https://img.shields.io/badge/Google%20Scholar-My%20Citations-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/>
+  </a>
+</p>
+</td>
+<td width="50%" align="center" valign="top">
+<h3>🤝 Professional Contact</h3>
+<p>
   <a href="https://www.linkedin.com/in/dyogomondego/">
     <img src="https://img.shields.io/badge/LinkedIn-Dyogo%20Mondego-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="mailto:d.m.m.a94@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</p>
+<p>
+  <a href="mailto:dyogo_111@hotmail.com">
+    <img src="https://img.shields.io/badge/Email-dyogo__111%40hotmail.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white"/>
   </a>
 </p>
+<p><b>Research collaboration · Software engineering · Technical partnerships</b></p>
+<p>For research discussions, reproducibility studies, engineering collaboration, or technical projects, feel free to reach out through LinkedIn or email.</p>
+</td>
+</tr>
+</table>
 
 <p align="center">
-<i>Building reliable software, researching intelligent systems, and connecting software engineering with real-world computing.</i>
+<i>Building reliable software, studying AI-assisted development, and connecting empirical research with real-world computing systems.</i>
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00BFBF&height=120&section=footer"/>
