@@ -84,8 +84,6 @@ Data & AI     → Machine Learning · RAG · AI Agents · Data Analysis
 
 ### Maintainability and Sustainability of AI-Generated Code
 
-My master's research investigates the impact of **AI-generated source code on software maintainability and technical sustainability**.
-
 The research combines empirical software engineering methods with quantitative software metrics and qualitative analysis.
 
 Key topics include:
