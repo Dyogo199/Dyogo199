@@ -187,7 +187,7 @@ Academic training connecting <b>computer science, software, data, and engineerin
 
 <table>
 <tr>
-<td colspan="2" align="center" valign="top">
+<td colspan="3" align="center" valign="top">
 <h3>🎓 MSc Student in Computer Science</h3>
 <p><b>University of São Paulo (USP) · Institute of Mathematics and Statistics (IME-USP)</b></p>
 <p>
@@ -199,16 +199,27 @@ Academic training connecting <b>computer science, software, data, and engineerin
 </td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top">
+<td width="33%" align="center" valign="top">
 <h3>⚗️ Chemical Engineering</h3>
-<p>Engineering background supporting a strong foundation in <b>analytical thinking, experimentation, modeling, and problem solving</b>.</p>
+<p><b>Federal University of Maranhão — UFMA</b></p>
+<p>Higher-education degree with a strong foundation in <b>analytical thinking, experimentation, modeling, and engineering problem solving</b>.</p>
 </td>
-<td width="50%" align="center" valign="top">
-<h3>💻 Computing & Data</h3>
-<p><b>Information Technology</b> and <b>Data Science</b> training complementing my work in software engineering, systems, AI, and empirical research.</p>
+<td width="33%" align="center" valign="top">
+<h3>💻 Information Technology</h3>
+<p><b>Federal University of Mato Grosso do Sul — UFMS</b></p>
+<p>Higher-education training focused on <b>computing, software, information systems, and technology</b>.</p>
+</td>
+<td width="33%" align="center" valign="top">
+<h3>📊 Data Science</h3>
+<p><b>Federal University of Mato Grosso do Sul — UFMS</b></p>
+<p>Higher-education training complementing my work in <b>data analysis, artificial intelligence, experimentation, and empirical research</b>.</p>
 </td>
 </tr>
 </table>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Higher%20Education-3%20Distinct%20Programs-00BFBF?style=flat-square"/>
+</p>
 
 <p align="center">
 <i>A multidisciplinary foundation for building and studying software-intensive systems from data and algorithms to infrastructure and hardware.</i>
