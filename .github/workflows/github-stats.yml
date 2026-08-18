@@ -8,42 +8,98 @@ on:
     branches:
       - main
     paths:
+      - "README.md"
       - ".github/workflows/github-stats.yml"
 
 permissions:
   contents: write
 
+concurrency:
+  group: github-profile-stats
+  cancel-in-progress: true
+
 jobs:
   update-stats:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate profile statistics
+      - name: Generate and validate profile statistics
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p profile
 
-          curl --fail --location --retry 5 --retry-delay 10 \
-            "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00BFBF&icon_color=00BFBF&text_color=C9D1D9" \
-            --output profile/stats.svg
+          stats_tmp="$(mktemp)"
+          langs_tmp="$(mktemp)"
 
-          curl --fail --location --retry 5 --retry-delay 10 \
+          cleanup() {
+            rm -f "$stats_tmp" "$langs_tmp"
+          }
+          trap cleanup EXIT
+
+          curl --fail-with-body --location --retry 5 --retry-all-errors --retry-delay 10 \
+            --connect-timeout 20 --max-time 120 \
+            --user-agent "Dyogo199-profile-stats" \
+            --header "Accept: image/svg+xml" \
+            "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00BFBF&icon_color=00BFBF&text_color=C9D1D9" \
+            --output "$stats_tmp"
+
+          curl --fail-with-body --location --retry 5 --retry-all-errors --retry-delay 10 \
+            --connect-timeout 20 --max-time 120 \
+            --user-agent "Dyogo199-profile-stats" \
+            --header "Accept: image/svg+xml" \
             "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=00BFBF&text_color=C9D1D9" \
-            --output profile/top-langs.svg
+            --output "$langs_tmp"
+
+          validate_svg() {
+            local file="$1"
+            local label="$2"
+
+            if [[ ! -s "$file" ]]; then
+              echo "ERROR: $label response is empty."
+              return 1
+            fi
+
+            if ! grep -qiE '<svg([[:space:]>])' "$file"; then
+              echo "ERROR: $label response is not an SVG document."
+              head -c 500 "$file" || true
+              echo
+              return 1
+            fi
+
+            if grep -qiE 'something went wrong|rate limit|card is not deployed|application error|internal server error' "$file"; then
+              echo "ERROR: $label response contains an upstream error card."
+              head -c 1000 "$file" || true
+              echo
+              return 1
+            fi
+          }
+
+          validate_svg "$stats_tmp" "GitHub statistics"
+          validate_svg "$langs_tmp" "Language statistics"
+
+          mv "$stats_tmp" profile/stats.svg
+          mv "$langs_tmp" profile/top-langs.svg
+          trap - EXIT
+
+          echo "Profile statistics generated and validated successfully."
 
       - name: Commit generated cards
         shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/stats.svg profile/top-langs.svg
+
           if git diff --cached --quiet; then
             echo "No statistics changes to commit."
             exit 0
           fi
+
           git commit -m "chore: update GitHub profile statistics"
           git push
