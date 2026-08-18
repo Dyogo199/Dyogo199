@@ -68,13 +68,20 @@ Beyond research, I design and build software and experimental systems across **b
 
 ### Maintainability and Sustainability of AI-Generated Code
 
-The research combines empirical software engineering methods with quantitative software metrics and qualitative analysis.
+As AI-assisted development becomes increasingly integrated into software engineering workflows, an important open question is whether code generated or modified by Large Language Models remains **maintainable, understandable, and technically sustainable over time**.
 
-Key topics include:
+My master's research addresses this problem through a **mixed-method empirical software engineering study**, combining quantitative analysis of real-world software repositories and benchmark tasks with qualitative evidence about software evolution and maintainability.
 
-`Maintainability Index` · `Cyclomatic Complexity` · `Technical Debt` · `LLMs` · `SWE-bench` · `Software Quality` · `Reproducibility`
+The quantitative evaluation focuses on indicators such as **Maintainability Index, Cyclomatic Complexity, software quality measures, and technical debt**, while the broader analysis investigates how AI-generated changes affect the long-term evolution of software systems.
 
-The goal is to better understand whether software generated or modified by AI remains maintainable throughout its lifecycle and to develop reproducible methodologies for evaluating these systems.
+**Research goals:**
+
+- provide empirical evidence about the maintainability of AI-generated software;
+- identify recurring maintainability and technical-debt patterns;
+- develop a practical and reproducible evaluation framework;
+- support researchers and developers in assessing the long-term quality of AI-assisted code.
+
+**Key topics:** `Maintainability Index` · `Cyclomatic Complexity` · `Technical Debt` · `LLMs` · `SWE-bench` · `Software Quality` · `Empirical Software Engineering` · `Reproducibility`
 
 ---
 
